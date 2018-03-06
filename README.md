@@ -7,6 +7,10 @@ Simply replace YOUR_TEX_FILE.tex at the end of this command before starting the 
 docker run --rm -v $(pwd):/texdir -it asciich/texi2pdf /bin/bash -c "cd /texdir && texi2pd YOUR_TEX_FILE.tex"
 ```
 
+## Docker hub
+
+This container is available on DockerHub: https://hub.docker.com/r/asciich/texi2pdf/
+
 ## Test container
 
 Currently the only existing test is to generate a PDF file from my
