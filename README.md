@@ -1,4 +1,4 @@
-# texi2pdf container
+# asciich/texi2pdf container
 
 ## Test container
 
