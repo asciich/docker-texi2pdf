@@ -4,7 +4,7 @@ This container can be used to convert a *.tex file into a PDF.
 Simply replace YOUR_TEX_FILE.tex at the end of this command before starting the container:
 
 ```
-docker run --rm -u $(id -u):$(id -g) -v $(pwd):/texdir -it asciich/texi2pdf /bin/bash -c "cd /texdir && texi2pdf sample.tex"
+docker run --rm -u $(id -u):$(id -g) -v $(pwd):/texdir -it asciich/texi2pdf /bin/bash -c "cd /texdir && texi2pdf YOUR_TEX_FILE.tex"
 ```
 
 ## Docker hub

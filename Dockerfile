@@ -11,6 +11,7 @@ RUN echo "Europe/Zurich" > /etc/timezone && \
         findutils \
         texinfo \
         texlive \
+        texlive-fonts-extra \
         texlive-lang-european \
         texlive-lang-german \
         texlive-latex-extra \
